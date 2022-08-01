@@ -9,6 +9,7 @@ const mainTable = document.querySelector(".main-table");
 
 const getWeekDays = (e) => {
   e.preventDefault();
+  mainTable.innerHTML = "";
   const dates = [];
   const year = yearInput.value * 1;
   const month = monthInput.value * 1;
