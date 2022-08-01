@@ -1,0 +1,88 @@
+@import url("https://fonts.maateen.me/mukti/font.css");
+@import url("https://fonts.maateen.me/kalpurush/font.css");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: noirrit;
+  src: url(/AdorNoirrit.ttf);
+}
+body {
+  font-family: "noirrit", Arial, sans-serif !important;
+}
+::placeholder {
+  font-size: 0.8rem;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.container {
+  max-width: 600px;
+  margin-inline: auto;
+  padding: 1rem;
+}
+
+.main-header {
+  text-align: center;
+  margin-top: 40px;
+}
+input {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  border: 2px solid #ff7613;
+  outline: none;
+  border-radius: 4px;
+  color: #ff7613;
+  font-weight: bold;
+}
+.inputs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.input:hover,
+.input:focus {
+  border: 2px solid black;
+}
+
+.submit-button {
+  width: 100%;
+  max-width: 600px;
+  display: block;
+  margin-inline: auto;
+  border: none;
+  padding: 0.5rem;
+  margin-top: 20px;
+  background-color: #ff7613;
+  color: #fff;
+  font-size: 1.2rem;
+  border-radius: 4px;
+}
+.main-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  font-size: 1.2rem;
+}
+.main-table,
+tr,
+td {
+  border: 1px solid red;
+}
+td {
+  padding: 0.5rem;
+}
